@@ -1,0 +1,333 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	background: #fff;
+}
+
+.wrap{
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	font-family:"Microsoft JhengHei";
+
+}
+.header{
+	color:#C9D4DC;
+	height: 150px;
+	float:center; 
+	background: #678598;
+	}
+
+.functionbar{
+	width: 1000px;
+	position: fixed;
+	top:0px;
+	left: auto;	
+	background: #CFD0E1;
+
+}
+
+.selections{
+	
+	margin: 0 ;
+}
+
+.selections li {
+	float: right;
+		
+}
+
+.selections li a{
+	display: block;
+	color:#50538A;
+	padding:  5px;
+	padding-left: 13px; 
+	padding-right: 13px;
+	text-decoration: none;
+}
+.selections li a:hover{
+	background: 	#50538A;
+	color:#CFD0E1;
+}
+
+.logo{
+	margin-top: 30px;
+}
+
+#logo{
+	width: 250px;
+	height: 150px;
+	float: left;
+}
+.title{
+	width: 700px;
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.catebar{
+	width: 700px;
+	float: left;
+	
+	margin-left: 30px;
+	text-align: center;
+
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	line-height: 45px;
+}
+select{
+	width: 130px;
+	height: 30px;
+	float: left;
+	margin:0px 20px 0px 10px; 	
+}
+
+.input{
+	width: 130px;
+	height: 25px;
+	float: left;
+	margin:0px 0px 0px 10px; 	
+
+	border: 1px solid;
+	border-color: #BEBEBE;
+	
+	color: #BEBEBE;
+}
+.submit{
+	height: 30px;
+	
+}
+
+.content{
+	height: 1000px;
+	margin-bottom:30px;
+}
+
+.side{
+	width: 250px;
+	float: left;
+	margin: 20px;
+}
+
+.main{
+	width: 660px;
+	float: left;
+	margin-top: 20px;
+	border: 1px solid black;	
+	padding: 20px;
+}
+.member{
+	border: 1px solid black;
+	height: 250px;
+}
+.moneyrate ,.trans{
+	border: 1px solid black;
+	
+}
+.fbclub{
+	border: 1px solid black;
+	
+}
+.member, .moneyrate, .trans, .fbclub{
+	margin-bottom: 10px;	
+
+}
+.goods1, .goods2 ,.goods3{
+	float: left;
+	width: 650px;
+	margin-bottom: 30px;
+	clear:both;
+	border-bottom: 1px solid black;
+	
+	
+}
+
+.goods_detail{
+	float: left;
+	width: 500px;
+	margin-bottom: 50px;
+}
+.chinese, .eng ,.price{
+	font-size: 30px;
+	width: 300px;
+	padding: 10px;
+	float: left;
+	padding-bottom: 5px;
+	color:#468A69;
+
+}
+.eng{
+	font-size: 20px;
+	margin-left: 30px;
+	padding: 0px ;
+	padding-left: 20px;
+}
+.price{
+	width: 50px;
+	float: left;
+	font-size: 20px;
+}
+.compare{
+	float: left;
+	padding-top: 20px;
+	margin-left: 30px;
+	padding-left: 20px;
+}
+
+.compare li{
+	margin-bottom: 10px;
+	color:#678598;
+}
+
+#top{
+	float: left;
+	height: 32px;
+	width: 32px;
+}
+
+h2{
+	text-align: center;
+	font-size: 32px;
+	font-style: bold;
+	color: #28704D;
+	margin-bottom: 20px;
+}
+
+#a1{
+	width: 150px;
+	height: 120px;
+	float: left;
+	margin-bottom: 5px;
+}
+.goods_pic{
+	float: left;
+	width: 150px;
+	margin-top:20px;
+}
+
+.goods_pic span{
+	color:#678598;
+}
+
+.star, .estar{
+	margin-right: 5px;
+	float: left;
+}
+
+.brands{
+	clear:both;
+	
+	
+}
+
+.brandlist{ 
+	color: 284E67;
+	text-decoration: none;
+	display: block;
+	height: 20px;
+	width: 140px;
+	border-width: 3px;
+	border-style:solid ;
+	border-color: #C9D4DC;
+	margin: 15px;
+	text-align: center;
+	padding: 10px;
+	color: #678598;
+	float: left;
+
+}
+
+.brandlist:hover{
+	background: #284E67;
+	color: #C9D4DC;
+
+}
+.footer{
+	height: 30px;
+	clear:both;
+	padding: 10px;
+	border-top: 1px solid #468A69;
+	border-bottom: 1px solid #468A69;
+	background: #CCE2D7;
+	margin-bottom: 10px;
+}
+
+.footer a{
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 200px;
+	float: left;
+	display: block;
+	color:#468A69;
+	padding: 5px;
+}
+
+.footer a:hover{
+	background: #44687F;
+	color:#95AAB8;
+}
+
+h5{
+	text-align: center;
+	width: 228px;
+	background: #CCE2D7;
+	padding: 10px;
+}
+
+.trans p{
+	color:#44687F;
+}
+
+div div div p{
+	display: block;
+	margin-left: 25px;
+	width: 180px;
+	
+	padding: 10px;
+}
